@@ -322,25 +322,20 @@ experiment make the code better? Worse? Did you learn anything from it?
 
 ## Setup
 
-Go through the setup instructions for JavaScript to install the
- necessary dependencies:
+Go through the setup instructions for JavaScript to install the necessary dependencies:
 
-http://exercism.io/languages/javascript/installation
+```sh
+npm i
+```
 
 ## Running the test suite
 
-The provided test suite uses [Jasmine](https://jasmine.github.io/).
+The provided test suite uses [Mocha](https://mochajs.org/).
 You can install it by opening a terminal window and running the
 following command:
 
 ```sh
-npm install -g jasmine
-```
-
-Run the test suite from the exercise directory with:
-
-```sh
-jasmine beer-song.spec.js
+npm run test
 ```
 
 In many test suites all but the first test have been marked "pending".
